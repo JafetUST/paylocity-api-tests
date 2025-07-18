@@ -1,0 +1,20 @@
+{
+	"nonGlobalStepDefinitions": true,
+	"stepDefinitions": [
+        "cypress/e2e/cucumber/[filepath]/**/*.{js,ts}",
+        "cypress/e2e/cucumber/[filepath].js",
+        "cypress/e2e/cucumber/genericSteps.ts"
+    ],
+    "json": {
+        "enabled": true,
+        "output": "Results/results.json",
+        "formatter": "cucumber-json-formatter.exe"
+    },
+    "messages": {
+        "enabled": true,
+        "output": "Results/messages.ndjson"
+    },
+    "html": {
+        "enabled": false
+    }   
+}

@@ -1,0 +1,13 @@
+{
+    "partitionKey": "string",
+    "sortKey": "string",
+    "username": "string",
+    "id": "string",
+    "firstName": "string",
+    "lastName": "string",
+    "dependants": "number",
+    "salary": "number",
+    "gross": "number",
+    "benefitsCost": "number",
+    "net": "number"
+}

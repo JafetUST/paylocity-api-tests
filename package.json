@@ -1,0 +1,25 @@
+{
+  "name": "paylocity-api-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.2.0",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.5",
+    "@cypress/webpack-preprocessor": "^6.0.4",
+    "@types/cypress": "^1.1.6",
+    "@types/node": "^24.0.14",
+    "cypress": "^14.5.2",
+    "cypress-iframe": "^1.0.1",
+    "mime-types": "^3.0.1",
+    "ts-loader": "^9.5.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
